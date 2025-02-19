@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 
 from pathlib import Path
 import os
+from os import environ
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -85,11 +87,20 @@ DATABASES = {
         'USER': 'myuser',
         'PASSWORD': 'mypassword',
         'HOST': 'db',  # Name of the PostgreSQL service in docker-compose.yaml
-        #'HOST': 'localhost', # for local development
+        'PORT': '5432',
+    },
+    'local': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'mydatabase',
+        'USER': 'myuser',
+        'PASSWORD': 'mypassword',
+        'HOST': 'localhost', # for local development
         'PORT': '5432',
     }
 }
 
+default_database = environ.get('DJANGO_DATABASE', 'default')
+DATABASES['default'] = DATABASES[default_database]
 
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators

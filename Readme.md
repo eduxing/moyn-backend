@@ -48,6 +48,13 @@ This is the backend for the Moyn project, built with Django and Docker. It inclu
     docker-compose exec web python manage.py collectstatic
     ```
 
+7. **Run locally**:
+
+    ```sh
+    docker-compose up db -d && DJANGO_DATABASE='local' ./manage.py runserver
+    ```
+
+
 ## Services
 
 - **Web**: The Django application running with Gunicorn.

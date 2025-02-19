@@ -1,3 +1,7 @@
-from django.shortcuts import render
+from rest_framework import viewsets
+from .models import MoynUser
+from .serializers import MoynUserSerializer
 
-# Create your views here.
+class MoynUserViewSet(viewsets.ModelViewSet):
+    queryset = MoynUser.objects.all()
+    serializer_class = MoynUserSerializer
