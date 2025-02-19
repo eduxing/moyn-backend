@@ -1,0 +1,57 @@
+[
+    {
+        "model": "moyn_user.moynuser",
+        "pk": 1,
+        "fields": {
+            "username": "tech_guru",
+            "password": "pbkdf2_sha256$260000$randomsalt1$randomhash1",
+            "email": "user1@example.com",
+            "phone_number": "1234567890",
+            "address": "123 Main St"
+        }
+    },
+    {
+        "model": "moyn_user.moynuser",
+        "pk": 2,
+        "fields": {
+            "username": "book_worm",
+            "password": "pbkdf2_sha256$260000$randomsalt2$randomhash2",
+            "email": "user2@example.com",
+            "phone_number": "0987654321",
+            "address": "456 Elm St"
+        }
+    },
+    {
+        "model": "moyn_user.moynuser",
+        "pk": 3,
+        "fields": {
+            "username": "fitness_fanatic",
+            "password": "pbkdf2_sha256$260000$randomsalt3$randomhash3",
+            "email": "user3@example.com",
+            "phone_number": "1122334455",
+            "address": "789 Oak St"
+        }
+    },
+    {
+        "model": "moyn_user.moynuser",
+        "pk": 4,
+        "fields": {
+            "username": "travel_bug",
+            "password": "pbkdf2_sha256$260000$randomsalt4$randomhash4",
+            "email": "user4@example.com",
+            "phone_number": "6677889900",
+            "address": "101 Pine St"
+        }
+    },
+    {
+        "model": "moyn_user.moynuser",
+        "pk": 5,
+        "fields": {
+            "username": "food_lover",
+            "password": "pbkdf2_sha256$260000$randomsalt5$randomhash5",
+            "email": "user5@example.com",
+            "phone_number": "2233445566",
+            "address": "202 Maple St"
+        }
+    }
+]

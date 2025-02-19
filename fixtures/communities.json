@@ -1,0 +1,282 @@
+[
+    {
+        "model": "communities.community",
+        "pk": 1,
+        "fields": {
+            "title": "Tech Enthusiasts",
+            "handle": "tech-enthusiasts",
+            "description": "A community for people who love technology and gadgets.",
+            "keywords": ["technology", "gadgets", "innovation"],
+            "active": true,
+            "private": false,
+            "members": [1, 2],
+            "admins": [1]
+        }
+    },
+    {
+        "model": "communities.community",
+        "pk": 2,
+        "fields": {
+            "title": "Book Lovers",
+            "handle": "book-lovers",
+            "description": "A community for people who enjoy reading and discussing books.",
+            "keywords": ["books", "reading", "literature"],
+            "active": true,
+            "private": false,
+            "members": [2, 3],
+            "admins": [2]
+        }
+    },
+    {
+        "model": "communities.community",
+        "pk": 3,
+        "fields": {
+            "title": "Fitness Freaks",
+            "handle": "fitness-freaks",
+            "description": "A community for fitness enthusiasts to share tips and motivation.",
+            "keywords": ["fitness", "health", "exercise"],
+            "active": true,
+            "private": false,
+            "members": [1, 3],
+            "admins": [3]
+        }
+    },
+    {
+        "model": "communities.community",
+        "pk": 4,
+        "fields": {
+            "title": "Travel Addicts",
+            "handle": "travel-addicts",
+            "description": "A community for people who love to travel and explore new places.",
+            "keywords": ["travel", "exploration", "adventure"],
+            "active": true,
+            "private": false,
+            "members": [1, 2, 3],
+            "admins": [1, 2]
+        }
+    },
+    {
+        "model": "communities.community",
+        "pk": 5,
+        "fields": {
+            "title": "Foodies United",
+            "handle": "foodies-united",
+            "description": "A community for food lovers to share recipes and restaurant reviews.",
+            "keywords": ["food", "recipes", "restaurants"],
+            "active": true,
+            "private": false,
+            "members": [2, 3],
+            "admins": [2]
+        }
+    },
+    {
+        "model": "communities.community",
+        "pk": 6,
+        "fields": {
+            "title": "Music Maniacs",
+            "handle": "music-maniacs",
+            "description": "A community for music enthusiasts to discuss their favorite bands and songs.",
+            "keywords": ["music", "bands", "songs"],
+            "active": true,
+            "private": false,
+            "members": [1, 3],
+            "admins": [3]
+        }
+    },
+    {
+        "model": "communities.community",
+        "pk": 7,
+        "fields": {
+            "title": "Movie Buffs",
+            "handle": "movie-buffs",
+            "description": "A community for movie lovers to discuss films and share reviews.",
+            "keywords": ["movies", "films", "reviews"],
+            "active": true,
+            "private": false,
+            "members": [1, 2],
+            "admins": [1]
+        }
+    },
+    {
+        "model": "communities.community",
+        "pk": 8,
+        "fields": {
+            "title": "Art Aficionados",
+            "handle": "art-aficionados",
+            "description": "A community for art lovers to share their favorite pieces and discuss techniques.",
+            "keywords": ["art", "painting", "sculpture"],
+            "active": true,
+            "private": false,
+            "members": [2, 3],
+            "admins": [2]
+        }
+    },
+    {
+        "model": "communities.community",
+        "pk": 9,
+        "fields": {
+            "title": "Photography Fans",
+            "handle": "photography-fans",
+            "description": "A community for photography enthusiasts to share their work and get feedback.",
+            "keywords": ["photography", "camera", "photos"],
+            "active": true,
+            "private": false,
+            "members": [1, 3],
+            "admins": [3]
+        }
+    },
+    {
+        "model": "communities.community",
+        "pk": 10,
+        "fields": {
+            "title": "Gaming Geeks",
+            "handle": "gaming-geeks",
+            "description": "A community for gamers to discuss their favorite games and share tips.",
+            "keywords": ["gaming", "video games", "tips"],
+            "active": true,
+            "private": false,
+            "members": [1, 2, 3],
+            "admins": [1, 2]
+        }
+    },
+    {
+        "model": "communities.community",
+        "pk": 11,
+        "fields": {
+            "title": "Nature Lovers",
+            "handle": "nature-lovers",
+            "description": "A community for people who love nature and outdoor activities.",
+            "keywords": ["nature", "outdoors", "hiking"],
+            "active": true,
+            "private": false,
+            "members": [2, 3],
+            "admins": [2]
+        }
+    },
+    {
+        "model": "communities.community",
+        "pk": 12,
+        "fields": {
+            "title": "Science Nerds",
+            "handle": "science-nerds",
+            "description": "A community for science enthusiasts to discuss the latest discoveries and theories.",
+            "keywords": ["science", "research", "discovery"],
+            "active": true,
+            "private": false,
+            "members": [1, 3],
+            "admins": [3]
+        }
+    },
+    {
+        "model": "communities.community",
+        "pk": 13,
+        "fields": {
+            "title": "History Buffs",
+            "handle": "history-buffs",
+            "description": "A community for history enthusiasts to discuss historical events and figures.",
+            "keywords": ["history", "events", "figures"],
+            "active": true,
+            "private": false,
+            "members": [1, 2],
+            "admins": [1]
+        }
+    },
+    {
+        "model": "communities.community",
+        "pk": 14,
+        "fields": {
+            "title": "Fashionistas",
+            "handle": "fashionistas",
+            "description": "A community for fashion lovers to share trends and style tips.",
+            "keywords": ["fashion", "style", "trends"],
+            "active": true,
+            "private": false,
+            "members": [2, 3],
+            "admins": [2]
+        }
+    },
+    {
+        "model": "communities.community",
+        "pk": 15,
+        "fields": {
+            "title": "Pet Lovers",
+            "handle": "pet-lovers",
+            "description": "A community for pet owners to share stories and tips about their furry friends.",
+            "keywords": ["pets", "animals", "care"],
+            "active": true,
+            "private": false,
+            "members": [1, 3],
+            "admins": [3]
+        }
+    },
+    {
+        "model": "communities.community",
+        "pk": 16,
+        "fields": {
+            "title": "DIY Enthusiasts",
+            "handle": "diy-enthusiasts",
+            "description": "A community for people who love to create and build things themselves.",
+            "keywords": ["DIY", "crafts", "projects"],
+            "active": true,
+            "private": false,
+            "members": [1, 2, 3],
+            "admins": [1, 2]
+        }
+    },
+    {
+        "model": "communities.community",
+        "pk": 17,
+        "fields": {
+            "title": "Gardening Gurus",
+            "handle": "gardening-gurus",
+            "description": "A community for gardening enthusiasts to share tips and showcase their gardens.",
+            "keywords": ["gardening", "plants", "flowers"],
+            "active": true,
+            "private": false,
+            "members": [2, 3],
+            "admins": [2]
+        }
+    },
+    {
+        "model": "communities.community",
+        "pk": 18,
+        "fields": {
+            "title": "Programming Pros",
+            "handle": "programming-pros",
+            "description": "A community for programmers to share knowledge and collaborate on projects.",
+            "keywords": ["programming", "coding", "development"],
+            "active": true,
+            "private": false,
+            "members": [1, 3],
+            "admins": [3]
+        }
+    },
+    {
+        "model": "communities.community",
+        "pk": 19,
+        "fields": {
+            "title": "Entrepreneurs",
+            "handle": "entrepreneurs",
+            "description": "A community for entrepreneurs to share ideas and support each other.",
+            "keywords": ["entrepreneurship", "business", "startups"],
+            "active": true,
+            "private": false,
+            "members": [1, 2],
+            "admins": [1]
+        }
+    },
+    {
+        "model": "communities.community",
+        "pk": 20,
+        "fields": {
+            "title": "Language Learners",
+            "handle": "language-learners",
+            "description": "A community for people learning new languages to practice and share resources.",
+            "keywords": ["languages", "learning", "practice"],
+            "active": true,
+            "private": false,
+            "members": [2, 3],
+            "admins": [2]
+        }
+    }
+]

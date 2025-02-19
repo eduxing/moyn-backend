@@ -4,25 +4,10 @@ services:
   web:
     build: .
     command: gunicorn moyn.wsgi:application --bind 0.0.0.0:8000
-    volumes:
-      - .:/app
     ports:
       - "8000:8000"
     depends_on:
       - db
-    networks:
-      - pgnetwork
-
-  nginx:
-    image: nginx:latest
-    ports:
-      - "80:80"
-    volumes:
-      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
-    depends_on:
-      - web
-    networks:
-      - pgnetwork
 
   db:
     image: postgres:13
@@ -34,8 +19,6 @@ services:
       POSTGRES_PASSWORD: mypassword
     ports:
       - "5432:5432"
-    networks:
-      - pgnetwork
   
   pgadmin:
     image: dpage/pgadmin4
@@ -47,8 +30,6 @@ services:
       - "8077:80"
     depends_on:
       - db  # Ensures pgAdmin starts after PostgreSQL
-    networks:
-      - pgnetwork
 
 networks:
   pgnetwork:

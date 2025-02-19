@@ -1,0 +1,242 @@
+[
+    {
+        "model": "communities.post",
+        "pk": 1,
+        "fields": {
+            "author": 1,
+            "community": 1,
+            "title": "Latest Tech Trends",
+            "content": "Let's discuss the latest trends in technology.",
+            "created_at": "2023-10-01T12:00:00Z",
+            "updated_at": "2023-10-01T12:00:00Z"
+        }
+    },
+    {
+        "model": "communities.post",
+        "pk": 2,
+        "fields": {
+            "author": 2,
+            "community": 2,
+            "title": "Favorite Books of 2023",
+            "content": "Share your favorite books of this year.",
+            "created_at": "2023-10-02T12:00:00Z",
+            "updated_at": "2023-10-02T12:00:00Z"
+        }
+    },
+    {
+        "model": "communities.post",
+        "pk": 3,
+        "fields": {
+            "author": 3,
+            "community": 3,
+            "title": "Workout Routines",
+            "content": "What are your favorite workout routines?",
+            "created_at": "2023-10-03T12:00:00Z",
+            "updated_at": "2023-10-03T12:00:00Z"
+        }
+    },
+    {
+        "model": "communities.post",
+        "pk": 4,
+        "fields": {
+            "author": 1,
+            "community": 4,
+            "title": "Best Travel Destinations",
+            "content": "Share your favorite travel destinations.",
+            "created_at": "2023-10-04T12:00:00Z",
+            "updated_at": "2023-10-04T12:00:00Z"
+        }
+    },
+    {
+        "model": "communities.post",
+        "pk": 5,
+        "fields": {
+            "author": 2,
+            "community": 5,
+            "title": "Delicious Recipes",
+            "content": "Share your favorite recipes.",
+            "created_at": "2023-10-05T12:00:00Z",
+            "updated_at": "2023-10-05T12:00:00Z"
+        }
+    },
+    {
+        "model": "communities.post",
+        "pk": 6,
+        "fields": {
+            "author": 3,
+            "community": 6,
+            "title": "Favorite Bands",
+            "content": "Discuss your favorite bands and songs.",
+            "created_at": "2023-10-06T12:00:00Z",
+            "updated_at": "2023-10-06T12:00:00Z"
+        }
+    },
+    {
+        "model": "communities.post",
+        "pk": 7,
+        "fields": {
+            "author": 1,
+            "community": 7,
+            "title": "Movie Reviews",
+            "content": "Share your reviews of recent movies.",
+            "created_at": "2023-10-07T12:00:00Z",
+            "updated_at": "2023-10-07T12:00:00Z"
+        }
+    },
+    {
+        "model": "communities.post",
+        "pk": 8,
+        "fields": {
+            "author": 2,
+            "community": 8,
+            "title": "Art Techniques",
+            "content": "Discuss your favorite art techniques.",
+            "created_at": "2023-10-08T12:00:00Z",
+            "updated_at": "2023-10-08T12:00:00Z"
+        }
+    },
+    {
+        "model": "communities.post",
+        "pk": 9,
+        "fields": {
+            "author": 3,
+            "community": 9,
+            "title": "Photography Tips",
+            "content": "Share your best photography tips.",
+            "created_at": "2023-10-09T12:00:00Z",
+            "updated_at": "2023-10-09T12:00:00Z"
+        }
+    },
+    {
+        "model": "communities.post",
+        "pk": 10,
+        "fields": {
+            "author": 1,
+            "community": 10,
+            "title": "Gaming Strategies",
+            "content": "Discuss strategies for your favorite games.",
+            "created_at": "2023-10-10T12:00:00Z",
+            "updated_at": "2023-10-10T12:00:00Z"
+        }
+    },
+    {
+        "model": "communities.post",
+        "pk": 11,
+        "fields": {
+            "author": 2,
+            "community": 11,
+            "title": "Outdoor Activities",
+            "content": "Share your favorite outdoor activities.",
+            "created_at": "2023-10-11T12:00:00Z",
+            "updated_at": "2023-10-11T12:00:00Z"
+        }
+    },
+    {
+        "model": "communities.post",
+        "pk": 12,
+        "fields": {
+            "author": 3,
+            "community": 12,
+            "title": "Science Discoveries",
+            "content": "Discuss the latest science discoveries.",
+            "created_at": "2023-10-12T12:00:00Z",
+            "updated_at": "2023-10-12T12:00:00Z"
+        }
+    },
+    {
+        "model": "communities.post",
+        "pk": 13,
+        "fields": {
+            "author": 1,
+            "community": 13,
+            "title": "Historical Events",
+            "content": "Discuss significant historical events.",
+            "created_at": "2023-10-13T12:00:00Z",
+            "updated_at": "2023-10-13T12:00:00Z"
+        }
+    },
+    {
+        "model": "communities.post",
+        "pk": 14,
+        "fields": {
+            "author": 2,
+            "community": 14,
+            "title": "Fashion Trends",
+            "content": "Share the latest fashion trends.",
+            "created_at": "2023-10-14T12:00:00Z",
+            "updated_at": "2023-10-14T12:00:00Z"
+        }
+    },
+    {
+        "model": "communities.post",
+        "pk": 15,
+        "fields": {
+            "author": 3,
+            "community": 15,
+            "title": "Pet Care Tips",
+            "content": "Share tips for taking care of pets.",
+            "created_at": "2023-10-15T12:00:00Z",
+            "updated_at": "2023-10-15T12:00:00Z"
+        }
+    },
+    {
+        "model": "communities.post",
+        "pk": 16,
+        "fields": {
+            "author": 1,
+            "community": 16,
+            "title": "DIY Projects",
+            "content": "Share your latest DIY projects.",
+            "created_at": "2023-10-16T12:00:00Z",
+            "updated_at": "2023-10-16T12:00:00Z"
+        }
+    },
+    {
+        "model": "communities.post",
+        "pk": 17,
+        "fields": {
+            "author": 2,
+            "community": 17,
+            "title": "Gardening Tips",
+            "content": "Share your best gardening tips.",
+            "created_at": "2023-10-17T12:00:00Z",
+            "updated_at": "2023-10-17T12:00:00Z"
+        }
+    },
+    {
+        "model": "communities.post",
+        "pk": 18,
+        "fields": {
+            "author": 3,
+            "community": 18,
+            "title": "Programming Challenges",
+            "content": "Discuss programming challenges and solutions.",
+            "created_at": "2023-10-18T12:00:00Z",
+            "updated_at": "2023-10-18T12:00:00Z"
+        }
+    },
+    {
+        "model": "communities.post",
+        "pk": 19,
+        "fields": {
+            "author": 1,
+            "community": 19,
+            "title": "Business Ideas",
+            "content": "Share your latest business ideas.",
+            "created_at": "2023-10-19T12:00:00Z",
+            "updated_at": "2023-10-19T12:00:00Z"
+        }
+    },
+    {
+        "model": "communities.post",
+        "pk": 20,
+        "fields": {
+            "author": 2,
+            "community": 20,
+            "title": "Language Learning Resources",
+            "content": "Share resources for learning new languages.",
+            "created_at": "2023-10-20T12:00:00Z",
+            "updated_at": "2023-10-20T12:00:00Z"
+        }
+    }
+]
