@@ -28,13 +28,21 @@ This is the backend for the Moyn project, built with Django and Docker. It inclu
     docker-compose exec web python manage.py migrate
     ```
 
-4. **Create a superuser**:
+4. **Load initial data fixtures**:
+
+    ```sh
+    docker-compose exec web python manage.py loaddata fixtures/users.json
+    docker-compose exec web python manage.py loaddata fixtures/communities.json
+    docker-compose exec web python manage.py loaddata fixtures/posts.json
+    ```
+
+5. **Create a superuser**:
 
     ```sh
     docker-compose exec web python manage.py createsuperuser
     ```
 
-5. **Collect static files**:
+6. **Collect static files**:
 
     ```sh
     docker-compose exec web python manage.py collectstatic
