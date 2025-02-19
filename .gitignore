@@ -1,0 +1,39 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+*.swo
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+local_settings.py
+db.sqlite3
+
+# Pipenv
+Pipfile.lock
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Docker
+*.log
+docker-compose.override.yml
