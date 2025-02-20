@@ -19,13 +19,15 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 from moyn_user.views import MoynUserViewSet
-from communities.views import CommunityViewSet, PostViewSet
+from communities.views import CommunityViewSet, PostViewSet, CommentViewSet, ReactionViewSet
 from rest_framework.routers import DefaultRouter
 
 router = DefaultRouter()
 router.register(r'communities', CommunityViewSet)
 router.register(r'posts', PostViewSet)
 router.register(r'users', MoynUserViewSet)
+router.register(r'comments', CommentViewSet)
+router.register(r'reactions', ReactionViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
