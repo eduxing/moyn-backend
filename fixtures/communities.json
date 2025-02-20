@@ -1,282 +1,546 @@
 [
-    {
-        "model": "communities.community",
-        "pk": 1,
-        "fields": {
-            "title": "Tech Enthusiasts",
-            "handle": "tech-enthusiasts",
-            "description": "A community for people who love technology and gadgets.",
-            "keywords": ["technology", "gadgets", "innovation"],
-            "active": true,
-            "private": false,
-            "members": [1, 2],
-            "admins": [1]
-        }
-    },
-    {
-        "model": "communities.community",
-        "pk": 2,
-        "fields": {
-            "title": "Book Lovers",
-            "handle": "book-lovers",
-            "description": "A community for people who enjoy reading and discussing books.",
-            "keywords": ["books", "reading", "literature"],
-            "active": true,
-            "private": false,
-            "members": [2, 3],
-            "admins": [2]
-        }
-    },
-    {
-        "model": "communities.community",
-        "pk": 3,
-        "fields": {
-            "title": "Fitness Freaks",
-            "handle": "fitness-freaks",
-            "description": "A community for fitness enthusiasts to share tips and motivation.",
-            "keywords": ["fitness", "health", "exercise"],
-            "active": true,
-            "private": false,
-            "members": [1, 3],
-            "admins": [3]
-        }
-    },
-    {
-        "model": "communities.community",
-        "pk": 4,
-        "fields": {
-            "title": "Travel Addicts",
-            "handle": "travel-addicts",
-            "description": "A community for people who love to travel and explore new places.",
-            "keywords": ["travel", "exploration", "adventure"],
-            "active": true,
-            "private": false,
-            "members": [1, 2, 3],
-            "admins": [1, 2]
-        }
-    },
-    {
-        "model": "communities.community",
-        "pk": 5,
-        "fields": {
-            "title": "Foodies United",
-            "handle": "foodies-united",
-            "description": "A community for food lovers to share recipes and restaurant reviews.",
-            "keywords": ["food", "recipes", "restaurants"],
-            "active": true,
-            "private": false,
-            "members": [2, 3],
-            "admins": [2]
-        }
-    },
-    {
-        "model": "communities.community",
-        "pk": 6,
-        "fields": {
-            "title": "Music Maniacs",
-            "handle": "music-maniacs",
-            "description": "A community for music enthusiasts to discuss their favorite bands and songs.",
-            "keywords": ["music", "bands", "songs"],
-            "active": true,
-            "private": false,
-            "members": [1, 3],
-            "admins": [3]
-        }
-    },
-    {
-        "model": "communities.community",
-        "pk": 7,
-        "fields": {
-            "title": "Movie Buffs",
-            "handle": "movie-buffs",
-            "description": "A community for movie lovers to discuss films and share reviews.",
-            "keywords": ["movies", "films", "reviews"],
-            "active": true,
-            "private": false,
-            "members": [1, 2],
-            "admins": [1]
-        }
-    },
-    {
-        "model": "communities.community",
-        "pk": 8,
-        "fields": {
-            "title": "Art Aficionados",
-            "handle": "art-aficionados",
-            "description": "A community for art lovers to share their favorite pieces and discuss techniques.",
-            "keywords": ["art", "painting", "sculpture"],
-            "active": true,
-            "private": false,
-            "members": [2, 3],
-            "admins": [2]
-        }
-    },
-    {
-        "model": "communities.community",
-        "pk": 9,
-        "fields": {
-            "title": "Photography Fans",
-            "handle": "photography-fans",
-            "description": "A community for photography enthusiasts to share their work and get feedback.",
-            "keywords": ["photography", "camera", "photos"],
-            "active": true,
-            "private": false,
-            "members": [1, 3],
-            "admins": [3]
-        }
-    },
-    {
-        "model": "communities.community",
-        "pk": 10,
-        "fields": {
-            "title": "Gaming Geeks",
-            "handle": "gaming-geeks",
-            "description": "A community for gamers to discuss their favorite games and share tips.",
-            "keywords": ["gaming", "video games", "tips"],
-            "active": true,
-            "private": false,
-            "members": [1, 2, 3],
-            "admins": [1, 2]
-        }
-    },
-    {
-        "model": "communities.community",
-        "pk": 11,
-        "fields": {
-            "title": "Nature Lovers",
-            "handle": "nature-lovers",
-            "description": "A community for people who love nature and outdoor activities.",
-            "keywords": ["nature", "outdoors", "hiking"],
-            "active": true,
-            "private": false,
-            "members": [2, 3],
-            "admins": [2]
-        }
-    },
-    {
-        "model": "communities.community",
-        "pk": 12,
-        "fields": {
-            "title": "Science Nerds",
-            "handle": "science-nerds",
-            "description": "A community for science enthusiasts to discuss the latest discoveries and theories.",
-            "keywords": ["science", "research", "discovery"],
-            "active": true,
-            "private": false,
-            "members": [1, 3],
-            "admins": [3]
-        }
-    },
-    {
-        "model": "communities.community",
-        "pk": 13,
-        "fields": {
-            "title": "History Buffs",
-            "handle": "history-buffs",
-            "description": "A community for history enthusiasts to discuss historical events and figures.",
-            "keywords": ["history", "events", "figures"],
-            "active": true,
-            "private": false,
-            "members": [1, 2],
-            "admins": [1]
-        }
-    },
-    {
-        "model": "communities.community",
-        "pk": 14,
-        "fields": {
-            "title": "Fashionistas",
-            "handle": "fashionistas",
-            "description": "A community for fashion lovers to share trends and style tips.",
-            "keywords": ["fashion", "style", "trends"],
-            "active": true,
-            "private": false,
-            "members": [2, 3],
-            "admins": [2]
-        }
-    },
-    {
-        "model": "communities.community",
-        "pk": 15,
-        "fields": {
-            "title": "Pet Lovers",
-            "handle": "pet-lovers",
-            "description": "A community for pet owners to share stories and tips about their furry friends.",
-            "keywords": ["pets", "animals", "care"],
-            "active": true,
-            "private": false,
-            "members": [1, 3],
-            "admins": [3]
-        }
-    },
-    {
-        "model": "communities.community",
-        "pk": 16,
-        "fields": {
-            "title": "DIY Enthusiasts",
-            "handle": "diy-enthusiasts",
-            "description": "A community for people who love to create and build things themselves.",
-            "keywords": ["DIY", "crafts", "projects"],
-            "active": true,
-            "private": false,
-            "members": [1, 2, 3],
-            "admins": [1, 2]
-        }
-    },
-    {
-        "model": "communities.community",
-        "pk": 17,
-        "fields": {
-            "title": "Gardening Gurus",
-            "handle": "gardening-gurus",
-            "description": "A community for gardening enthusiasts to share tips and showcase their gardens.",
-            "keywords": ["gardening", "plants", "flowers"],
-            "active": true,
-            "private": false,
-            "members": [2, 3],
-            "admins": [2]
-        }
-    },
-    {
-        "model": "communities.community",
-        "pk": 18,
-        "fields": {
-            "title": "Programming Pros",
-            "handle": "programming-pros",
-            "description": "A community for programmers to share knowledge and collaborate on projects.",
-            "keywords": ["programming", "coding", "development"],
-            "active": true,
-            "private": false,
-            "members": [1, 3],
-            "admins": [3]
-        }
-    },
-    {
-        "model": "communities.community",
-        "pk": 19,
-        "fields": {
-            "title": "Entrepreneurs",
-            "handle": "entrepreneurs",
-            "description": "A community for entrepreneurs to share ideas and support each other.",
-            "keywords": ["entrepreneurship", "business", "startups"],
-            "active": true,
-            "private": false,
-            "members": [1, 2],
-            "admins": [1]
-        }
-    },
-    {
-        "model": "communities.community",
-        "pk": 20,
-        "fields": {
-            "title": "Language Learners",
-            "handle": "language-learners",
-            "description": "A community for people learning new languages to practice and share resources.",
-            "keywords": ["languages", "learning", "practice"],
-            "active": true,
-            "private": false,
-            "members": [2, 3],
-            "admins": [2]
-        }
+  {
+    "model": "communities.community",
+    "pk": 1,
+    "fields": {
+      "title": "Bergedorf",
+      "image-url": "",
+      "handle": "new-work",
+      "description": "Connect with locals, share news, and explore this historic town.",
+      "keywords": ["Bergedorf", "Hamburg", "community", "local"],
+      "active": true,
+      "private": false,
+      "members": [1, 2],
+      "member-count": 356,
+      "new-posts": 0,
+      "admins": [1]
     }
+  },
+  {
+    "model": "communities.community",
+    "pk": 2,
+    "fields": {
+      "title": "OpenAI",
+      "image-url": "",
+      "handle": "new-work",
+      "description": "Discuss AI, share projects, and explore GPT innovations.",
+      "keywords": ["AI", "GPT", "machine-learning", "innovation"],
+      "active": true,
+      "private": false,
+      "members": [1, 2],
+      "member-count": 2200203,
+      "new-posts": 0,
+      "admins": [8]
+    }
+  },
+  {
+    "model": "communities.community",
+    "pk": 3,
+    "fields": {
+      "title": "New work",
+      "image-url": "",
+      "handle": "new-work",
+      "description": "Explore the future of work, leadership, and flexibility",
+      "keywords": ["future-of-work", "leadership", "remote", "innovation"],
+      "active": true,
+      "private": false,
+      "members": [1, 2],
+      "member-count": 3532,
+      "new-posts": 0,
+      "admins": [1]
+    }
+  },
+  {
+    "model": "communities.community",
+    "pk": 4,
+    "fields": {
+      "title": "Lego Fans",
+      "image-url": "",
+      "handle": "lego-fans",
+      "description": "A community for LEGO enthusiasts of all ages! Dive into the world of endless creativity with fellow brick lovers.",
+      "keywords": ["lego", "bricks", "building", "creativity"],
+      "active": true,
+      "private": false,
+      "members": [1, 2],
+      "member-count": 423,
+      "new-posts": 3,
+      "admins": [1]
+    }
+  },
+  {
+    "model": "communities.community",
+    "pk": 5,
+    "fields": {
+      "title": "REACT developers",
+      "image-url": "",
+      "handle": "react-developers",
+      "description": "Discuss React, share projects, and explore new features.",
+      "keywords": ["React", "frontend", "JavaScript", "coding"],
+      "active": true,
+      "private": false,
+      "members": [1, 2],
+      "member-count": 12353,
+      "new-posts": 3,
+      "admins": [1]
+    }
+  },
+  {
+    "model": "communities.community",
+    "pk": 6,
+    "fields": {
+      "title": "Tech Enthusiasts",
+      "image-url": "",
+      "handle": "tech-enthusiasts",
+      "description": "A community for people who love technology and gadgets.",
+      "keywords": ["technology", "gadgets", "innovation"],
+      "active": true,
+      "private": false,
+      "members": [1, 2],
+      "member-count": 232,
+      "new-posts": 4,
+      "admins": [1]
+    }
+  },
+  {
+    "model": "communities.community",
+    "pk": 7,
+    "fields": {
+      "title": "Book Lovers",
+      "image-url": "",
+      "handle": "book-lovers",
+      "description": "A community for people who enjoy ding and discussing books.",
+      "keywords": ["books", "reading", "literature"],
+      "active": true,
+      "private": false,
+      "members": [2, 3],
+      "member-count": 232,
+      "new-posts": 4,
+      "admins": [2]
+    }
+  },
+  {
+    "model": "communities.community",
+    "pk": 8,
+    "fields": {
+      "title": "Fitness Freaks",
+      "image-url": "",
+      "handle": "fitness-freaks",
+      "description": "A community for fitness enthusiasts to share tips and motivation.",
+      "keywords": ["fitness", "health", "exercise"],
+      "active": true,
+      "private": false,
+      "members": [1, 3],
+      "member-count": 232,
+      "new-posts": 4,
+      "admins": [3]
+    }
+  },
+  {
+    "model": "communities.community",
+    "pk": 9,
+    "fields": {
+      "title": "Travel Addicts",
+      "image-url": "",
+      "handle": "travel-addicts",
+      "description": "A community for people who love to travel and explore new places.",
+      "keywords": ["travel", "exploration", "adventure"],
+      "active": true,
+      "private": false,
+      "members": [1, 2, 3],
+      "member-count": 232,
+      "new-posts": 4,
+      "admins": [1, 2]
+    }
+  },
+  {
+    "model": "communities.community",
+    "pk": 10,
+    "fields": {
+      "title": "Foodies United",
+      "image-url": "",
+      "handle": "foodies-united",
+      "description": "A community for food lovers to share recipes and restaurant reviews.",
+      "keywords": ["food", "recipes", "restaurants"],
+      "active": true,
+      "private": false,
+      "members": [2, 3],
+      "member-count": 232,
+      "new-posts": 4,
+      "admins": [2]
+    }
+  },
+  {
+    "model": "communities.community",
+    "pk": 11,
+    "fields": {
+      "title": "Music Maniacs",
+      "image-url": "",
+      "handle": "music-maniacs",
+      "description": "A community for music enthusiasts to discuss their favorite bands and songs.",
+      "keywords": ["music", "bands", "songs"],
+      "active": true,
+      "private": false,
+      "members": [1, 3],
+      "member-count": 232,
+      "new-posts": 4,
+      "admins": [3]
+    }
+  },
+  {
+    "model": "communities.community",
+    "pk": 12,
+    "fields": {
+      "title": "Movie Buffs",
+      "image-url": "",
+      "handle": "movie-buffs",
+      "description": "A community for movie lovers to discuss films and share reviews.",
+      "keywords": ["movies", "films", "reviews"],
+      "active": true,
+      "private": false,
+      "members": [1, 2],
+      "member-count": 232,
+      "new-posts": 4,
+      "admins": [1]
+    }
+  },
+  {
+    "model": "communities.community",
+    "pk": 13,
+    "fields": {
+      "title": "Art Aficionados",
+      "image-url": "",
+      "handle": "art-aficionados",
+      "description": "A community for art lovers to share their favorite pieces and discuss techniques.",
+      "keywords": ["art", "painting", "sculpture"],
+      "active": true,
+      "private": false,
+      "members": [2, 3],
+      "member-count": 232,
+      "new-posts": 4,
+      "admins": [2]
+    }
+  },
+  {
+    "model": "communities.community",
+    "pk": 14,
+    "fields": {
+      "title": "Photography Fans",
+      "image-url": "",
+      "handle": "photography-fans",
+      "description": "A community for photography enthusiasts to share their work and get feedback.",
+      "keywords": ["photography", "camera", "photos"],
+      "active": true,
+      "private": false,
+      "members": [1, 3],
+      "member-count": 232,
+      "new-posts": 4,
+      "admins": [3]
+    }
+  },
+  {
+    "model": "communities.community",
+    "pk": 15,
+    "fields": {
+      "title": "Gaming Geeks",
+      "image-url": "",
+      "handle": "gaming-geeks",
+      "description": "A community for gamers to discuss their favorite games and share tips.",
+      "keywords": ["gaming", "video games", "tips"],
+      "active": true,
+      "private": false,
+      "members": [1, 2, 3],
+      "member-count": 232,
+      "new-posts": 4,
+      "admins": [1, 2]
+    }
+  },
+  {
+    "model": "communities.community",
+    "pk": 16,
+    "fields": {
+      "title": "Nature Lovers",
+      "image-url": "",
+      "handle": "nature-lovers",
+      "description": "A community for people who love nature and outdoor activities.",
+      "keywords": ["nature", "outdoors", "hiking"],
+      "active": true,
+      "private": false,
+      "members": [2, 3],
+      "member-count": 232,
+      "new-posts": 4,
+      "admins": [2]
+    }
+  },
+  {
+    "model": "communities.community",
+    "pk": 17,
+    "fields": {
+      "title": "Science Nerds",
+      "image-url": "",
+      "handle": "science-nerds",
+      "description": "A community for science enthusiasts to discuss the latest discoveries and theories.",
+      "keywords": ["science", "research", "discovery"],
+      "active": true,
+      "private": false,
+      "members": [1, 3],
+      "member-count": 232,
+      "new-posts": 4,
+      "admins": [3]
+    }
+  },
+  {
+    "model": "communities.community",
+    "pk": 18,
+    "fields": {
+      "title": "History Buffs",
+      "image-url": "",
+      "handle": "history-buffs",
+      "description": "A community for history enthusiasts to discuss historical events and figures.",
+      "keywords": ["history", "events", "figures"],
+      "active": true,
+      "private": false,
+      "members": [1, 2],
+      "member-count": 232,
+      "new-posts": 4,
+      "admins": [1]
+    }
+  },
+  {
+    "model": "communities.community",
+    "pk": 19,
+    "fields": {
+      "title": "Fashionistas",
+      "image-url": "",
+      "handle": "fashionistas",
+      "description": "A community for fashion lovers to share trends and style tips.",
+      "keywords": ["fashion", "style", "trends"],
+      "active": true,
+      "private": false,
+      "members": [2, 3],
+      "member-count": 232,
+      "new-posts": 4,
+      "admins": [2]
+    }
+  },
+  {
+    "model": "communities.community",
+    "pk": 20,
+    "fields": {
+      "title": "Pet Lovers",
+      "image-url": "",
+      "handle": "pet-lovers",
+      "description": "A community for pet owners to share stories and tips about their furry friends.",
+      "keywords": ["pets", "animals", "care"],
+      "active": true,
+      "private": false,
+      "members": [1, 3],
+      "member-count": 232,
+      "new-posts": 4,
+      "admins": [3]
+    }
+  },
+  {
+    "model": "communities.community",
+    "pk": 21,
+    "fields": {
+      "title": "DIY Enthusiasts",
+      "image-url": "",
+      "handle": "diy-enthusiasts",
+      "description": "A community for people who love to create and build things themselves.",
+      "keywords": ["DIY", "crafts", "projects"],
+      "active": true,
+      "private": false,
+      "members": [1, 2, 3],
+      "member-count": 232,
+      "new-posts": 4,
+      "admins": [1, 2]
+    }
+  },
+  {
+    "model": "communities.community",
+    "pk": 22,
+    "fields": {
+      "title": "Gardening Gurus",
+      "image-url": "",
+      "handle": "gardening-gurus",
+      "description": "A community for gardening enthusiasts to share tips and showcase their gardens.",
+      "keywords": ["gardening", "plants", "flowers"],
+      "active": true,
+      "private": false,
+      "members": [2, 3],
+      "member-count": 232,
+      "new-posts": 4,
+      "admins": [2]
+    }
+  },
+  {
+    "model": "communities.community",
+    "pk": 18,
+    "fields": {
+      "title": "Programming Pros",
+      "image-url": "",
+      "handle": "programming-pros",
+      "description": "A community for programmers to share knowledge and collaborate on projects.",
+      "keywords": ["programming", "coding", "development"],
+      "active": true,
+      "private": false,
+      "members": [1, 3],
+      "member-count": 232,
+      "new-posts": 4,
+      "admins": [3]
+    }
+  },
+  {
+    "model": "communities.community",
+    "pk": 23,
+    "fields": {
+      "title": "Entrepreneurs",
+      "image-url": "",
+      "handle": "entrepreneurs",
+      "description": "A community for entrepreneurs to share ideas and support each other.",
+      "keywords": ["entrepreneurship", "business", "startups"],
+      "active": true,
+      "private": false,
+      "members": [1, 2],
+      "member-count": 232,
+      "new-posts": 4,
+      "admins": [1]
+    }
+  },
+  {
+    "model": "communities.community",
+    "pk": 24,
+    "fields": {
+      "title": "Language Learners",
+      "image-url": "",
+      "handle": "language-learners",
+      "description": "A community for people learning new languages to practice and share resources.",
+      "keywords": ["languages", "learning", "practice"],
+      "active": true,
+      "private": false,
+      "members": [2, 3],
+      "member-count": 232,
+      "new-posts": 4,
+      "admins": [2]
+    }
+  },
+  {
+    "model": "communities.community",
+    "pk": 25,
+    "fields": {
+      "title": "Lego mindstorms",
+      "image-url": "",
+      "handle": "lego-mindstorms",
+      "description": "Build, code, and innovate with LEGO robotics.",
+      "keywords": ["LEGO", "robotics", "coding", "STEM"],
+      "active": true,
+      "private": false,
+      "members": [2, 3],
+      "member-count": 856,
+      "new-posts": 2,
+      "admins": [2]
+    }
+  },
+  {
+    "model": "communities.community",
+    "pk": 27,
+    "fields": {
+      "title": "WebDevs",
+      "image-url": "",
+      "handle": "webdevs",
+      "description": "A hub for web developers to share, learn, and grow.",
+      "keywords": ["web development", "HTML", "CSS", "JavaScript"],
+      "active": true,
+      "private": false,
+      "members": [4, 5],
+      "member-count": 1245,
+      "new-posts": 5,
+      "admins": [4]
+    }
+  },
+  {
+    "model": "communities.community",
+    "pk": 28,
+    "fields": {
+      "title": "ZEIT",
+      "image-url": "",
+      "handle": "zeit",
+      "description": "Discuss news, politics, and culture from ZEIT.",
+      "keywords": ["news", "politics", "Germany", "culture"],
+      "active": true,
+      "private": false,
+      "members": [6, 7],
+      "member-count": 3420,
+      "new-posts": 12,
+      "admins": [6]
+    }
+  },
+  {
+    "model": "communities.community",
+    "pk": 29,
+    "fields": {
+      "title": "Hot Air Fryer Recipes",
+      "image-url": "",
+      "handle": "hot-air-fryer-recipes",
+      "description": "Share and discover the best air fryer recipes.",
+      "keywords": ["air fryer", "cooking", "recipes", "healthy"],
+      "active": true,
+      "private": false,
+      "members": [8, 9],
+      "member-count": 2780,
+      "new-posts": 7,
+      "admins": [8]
+    }
+  },
+  {
+    "model": "communities.community",
+    "pk": 30,
+    "fields": {
+      "title": "Freelancers",
+      "image-url": "",
+      "handle": "freelancers",
+      "description": "Connect, share tips, and grow your freelance career.",
+      "keywords": ["freelance", "self-employed", "remote work", "business"],
+      "active": true,
+      "private": false,
+      "members": [10, 11],
+      "member-count": 51200,
+      "new-posts": 2,
+      "admins": [3]
+    }
+  },
+  {
+    "model": "communities.community",
+    "pk": 31,
+    "fields": {
+      "title": "Hamburg Devs",
+      "image-url": "",
+      "handle": "hamburg-devs",
+      "description": "A community for developers in Hamburg to connect and collaborate.",
+      "keywords": ["developers", "Hamburg", "tech", "coding"],
+      "active": true,
+      "private": false,
+      "members": [12, 13],
+      "member-count": 1980,
+      "new-posts": 1,
+      "admins": [4]
+    }
+  },
+  {
+    "model": "communities.community",
+    "pk": 32,
+    "fields": {
+      "title": "XING Community",
+      "image-url": "",
+      "handle": "xing-community",
+      "description": "Network where professionals share career insights.",
+      "keywords": ["networking", "jobs", "career", "XING"],
+      "active": true,
+      "private": false,
+      "members": [14, 15],
+      "member-count": 1925657,
+      "new-posts": 10,
+      "admins": [10]
+    }
+  }
 ]
