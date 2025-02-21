@@ -96,7 +96,11 @@ DATABASES = {
         'PASSWORD': 'mypassword',
         'HOST': 'localhost', # for local development
         'PORT': '5432',
-    }
+    }, 
+    'sqlite': { 
+        'ENGINE': 'django.db.backends.sqlite3', 
+        'NAME': BASE_DIR / "db.sqlite3", 
+    },
 }
 
 default_database = environ.get('DJANGO_DATABASE', 'default')

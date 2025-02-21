@@ -7,7 +7,8 @@
             "password": "pbkdf2_sha256$260000$randomsalt1$randomhash1",
             "email": "user1@example.com",
             "phone_number": "1234567890",
-            "address": "123 Main St"
+            "address": "123 Main St",
+            "profile_url": ""
         }
     },
     {
@@ -18,7 +19,8 @@
             "password": "pbkdf2_sha256$260000$randomsalt2$randomhash2",
             "email": "user2@example.com",
             "phone_number": "0987654321",
-            "address": "456 Elm St"
+            "address": "456 Elm St",
+            "profile_url": ""
         }
     },
     {
@@ -29,7 +31,8 @@
             "password": "pbkdf2_sha256$260000$randomsalt3$randomhash3",
             "email": "user3@example.com",
             "phone_number": "1122334455",
-            "address": "789 Oak St"
+            "address": "789 Oak St",
+            "profile_url": ""
         }
     },
     {
@@ -40,7 +43,8 @@
             "password": "pbkdf2_sha256$260000$randomsalt4$randomhash4",
             "email": "user4@example.com",
             "phone_number": "6677889900",
-            "address": "101 Pine St"
+            "address": "101 Pine St",
+            "profile_url": ""
         }
     },
     {
@@ -51,7 +55,32 @@
             "password": "pbkdf2_sha256$260000$randomsalt5$randomhash5",
             "email": "user5@example.com",
             "phone_number": "2233445566",
-            "address": "202 Maple St"
+            "address": "202 Maple St",
+            "profile_url": ""
+        }
+    },
+    {
+        "model": "moyn_user.moynuser",
+        "pk": 6,
+        "fields": {
+            "username": "rock_star",
+            "password": "pbkdf2_sha256$260000$randomsalt5$randomhash5",
+            "email": "user6@example.com",
+            "phone_number": "2233445566",
+            "address": "202 Stone St",
+            "profile_url": ""
+        }
+    },
+    {
+        "model": "moyn_user.moynuser",
+        "pk": 7,
+        "fields": {
+            "username": "crazy_tourist",
+            "password": "pbkdf2_sha256$260000$randomsalt5$randomhash5",
+            "email": "user7@example.com",
+            "phone_number": "2233445566",
+            "address": "202 Marble Arch St",
+            "profile_url": ""
         }
     }
 ]
