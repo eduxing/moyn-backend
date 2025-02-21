@@ -17,14 +17,16 @@ migrate:
 
 fixtures:
 	docker-compose exec web python manage.py loaddata fixtures/users.json
+	docker-compose exec web python manage.py dump_communities
 	docker-compose exec web python manage.py loaddata fixtures/communities.json
 	docker-compose exec web python manage.py loaddata fixtures/posts.json	
 
 fixtures_local:
 	DJANGO_DATABASE='local' ./manage.py loaddata fixtures/users.json
+	DJANGO_DATABASE='local' ./manage.py dump_communities
 	DJANGO_DATABASE='local' ./manage.py loaddata fixtures/communities.json
 	DJANGO_DATABASE='local' ./manage.py loaddata fixtures/posts.json
-	
+
 setup:
 	docker-compose run web python manage.py migrate
 	docker-compose exec web python manage.py loaddata fixtures/users.json
