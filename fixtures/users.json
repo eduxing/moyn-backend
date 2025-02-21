@@ -3,84 +3,108 @@
         "model": "moyn_user.moynuser",
         "pk": 1,
         "fields": {
-            "username": "tech_guru",
+            "username": "Atul",
             "password": "pbkdf2_sha256$260000$randomsalt1$randomhash1",
             "email": "user1@example.com",
             "phone_number": "1234567890",
             "address": "123 Main St",
-            "profile_url": ""
+            "profile_url": "https://storage.googleapis.com/silkine-assets/XING/newtwitter/atul.png"
         }
     },
     {
         "model": "moyn_user.moynuser",
         "pk": 2,
         "fields": {
-            "username": "book_worm",
+            "username": "Bernie",
             "password": "pbkdf2_sha256$260000$randomsalt2$randomhash2",
             "email": "user2@example.com",
             "phone_number": "0987654321",
             "address": "456 Elm St",
-            "profile_url": ""
+            "profile_url": "https://storage.googleapis.com/silkine-assets/XING/newtwitter/bernhard.png"
         }
     },
     {
         "model": "moyn_user.moynuser",
         "pk": 3,
         "fields": {
-            "username": "fitness_fanatic",
+            "username": "eduxing",
             "password": "pbkdf2_sha256$260000$randomsalt3$randomhash3",
             "email": "user3@example.com",
             "phone_number": "1122334455",
             "address": "789 Oak St",
-            "profile_url": ""
+            "profile_url": "https://storage.googleapis.com/silkine-assets/XING/newtwitter/edu.png"
         }
     },
     {
         "model": "moyn_user.moynuser",
         "pk": 4,
         "fields": {
-            "username": "travel_bug",
+            "username": "Irena",
             "password": "pbkdf2_sha256$260000$randomsalt4$randomhash4",
             "email": "user4@example.com",
             "phone_number": "6677889900",
             "address": "101 Pine St",
-            "profile_url": ""
+            "profile_url": "https://storage.googleapis.com/silkine-assets/XING/newtwitter/irena.png"
         }
     },
     {
         "model": "moyn_user.moynuser",
         "pk": 5,
         "fields": {
-            "username": "food_lover",
+            "username": "Miriam",
             "password": "pbkdf2_sha256$260000$randomsalt5$randomhash5",
             "email": "user5@example.com",
             "phone_number": "2233445566",
             "address": "202 Maple St",
-            "profile_url": ""
+            "profile_url": "https://storage.googleapis.com/silkine-assets/XING/newtwitter/miriam.png"
         }
     },
     {
         "model": "moyn_user.moynuser",
         "pk": 6,
         "fields": {
-            "username": "rock_star",
+            "username": "Nadine_nk_hh",
             "password": "pbkdf2_sha256$260000$randomsalt5$randomhash5",
             "email": "user6@example.com",
             "phone_number": "2233445566",
             "address": "202 Stone St",
-            "profile_url": ""
+            "profile_url": "https://storage.googleapis.com/silkine-assets/XING/newtwitter/nadine.png"
         }
     },
     {
         "model": "moyn_user.moynuser",
         "pk": 7,
         "fields": {
-            "username": "crazy_tourist",
+            "username": "osrufung",
             "password": "pbkdf2_sha256$260000$randomsalt5$randomhash5",
             "email": "user7@example.com",
             "phone_number": "2233445566",
             "address": "202 Marble Arch St",
-            "profile_url": ""
+            "profile_url": "https://storage.googleapis.com/silkine-assets/XING/newtwitter/oswaldo.png"
+        }
+    },
+    {
+        "model": "moyn_user.moynuser",
+        "pk": 8,
+        "fields": {
+            "username": "silkine",
+            "password": "pbkdf2_sha256$260000$randomsalt5$randomhash5",
+            "email": "user7@example.com",
+            "phone_number": "2233445566",
+            "address": "202 Marble Arch St",
+            "profile_url": "https://storage.googleapis.com/silkine-assets/XING/newtwitter/silke.png"
+        }
+    },
+    {
+        "model": "moyn_user.moynuser",
+        "pk": 9,
+        "fields": {
+            "username": "tiago",
+            "password": "pbkdf2_sha256$260000$randomsalt5$randomhash5",
+            "email": "user7@example.com",
+            "phone_number": "2233445566",
+            "address": "202 Marble Arch St",
+            "profile_url": "https://storage.googleapis.com/silkine-assets/XING/newtwitter/tiago.png"
         }
     }
 ]
