@@ -14,6 +14,8 @@ class Community(models.Model):
     keywords = models.JSONField(default=list)  # Requires Django 3.1+
     active = models.BooleanField(default=True)
     private = models.BooleanField(default=False)
+    image_url = models.URLField(max_length=200, blank=True, null=True)
+    members_count = models.IntegerField(default=0)
 
     def __str__(self):
         return str(self.title)

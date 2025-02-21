@@ -1,10 +1,16 @@
 from rest_framework import serializers
 from .models import Community, Post, Comment, Reaction
+import random
 
 class CommunitySerializer(serializers.ModelSerializer):
+    new_posts = serializers.SerializerMethodField()
+
     class Meta:
         model = Community
         fields = '__all__'
+
+    def get_new_posts(self, obj):
+        return random.randint(1, 100)
 
 class PostSerializer(serializers.ModelSerializer):
     class Meta:
